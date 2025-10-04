@@ -1,5 +1,30 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
+    background: rgb(0, 96, 0);
+    
+}
+
+.card {
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+    height : 450px;
+    
+}
+
+.card-body {
+    justify-content: center;
+    align-items: center;
+    padding: 40%;
+
+}
+
+.container {
+    display: flex;
+    justify-content: end;
     background: white;
 }
+
+
