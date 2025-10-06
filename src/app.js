@@ -30,13 +30,9 @@ window.onload = function () {
         changeColorSuit.style.color = "red"
         changeColorSuitFooter.style.color = "red"
         changeColorNumber.style.color = "red"
+ } 
 
-    } else {
-        changeColorSuit.style.color = "black"
-    changeColorSuitFooter.style.color = "black"
-    changeColorNumber.style.color = "black"
 
-}
 
 
     
