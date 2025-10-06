@@ -2,6 +2,8 @@
 
 body{
     background: rgb(0, 96, 0);
+    margin:auto;
+    
     
 }
 
@@ -9,22 +11,53 @@ body{
     
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8rem;
-    height : 450px;
+    margin-top: 5rem;
+    border-radius: 15px;
+    
     
 }
 
 .card-body {
+    display:flex;
     justify-content: center;
     align-items: center;
-    padding: 40%;
+    padding: 75px 0px 75px 0px;
+    overflow-wrap: normal;
 
 }
 
-.container {
+
+.containerHeader {
+    display: flex;
+    justify-content: start;
+    background: white;
+    border-radius: 15px;
+    
+
+}
+
+.header{
+   padding: 0px 10px 0px 12px; 
+    font-size: 60px;
+}
+
+.containerFooter {
     display: flex;
     justify-content: end;
     background: white;
+    border-radius: 15px;
+}
+
+    
+
+.footer{
+    padding: 0px 14px 0px 10px; 
+    font-size: 60px;
+    transform: rotateX(180deg);
 }
 
 
+
+h1 {
+    font-size: 110px;
+}
