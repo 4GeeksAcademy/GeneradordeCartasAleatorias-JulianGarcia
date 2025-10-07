@@ -9,13 +9,13 @@ window.onload = function () {
 
     let suits = ["♣", "♦", "♥", "♠"];
     let numbers = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
-    let colors = ["black", "red"];
+    // let colors = ["black", "red"];
 
     function randomCards() {
 
         let randomSuits = Math.floor(Math.random() * suits.length)
         let randomNumbers = Math.floor(Math.random() * numbers.length)
-        let randomColors = Math.floor(Math.random() * colors.length)
+        // let randomColors = Math.floor(Math.random() * colors.length)
 
         document.getElementById("suit").innerText = suits[randomSuits];
         document.getElementById("suitFooter").innerText = suits[randomSuits];
@@ -25,7 +25,7 @@ window.onload = function () {
         let changeColorSuitFooter = document.getElementById("suitFooter")
         let changeColorNumber = document.getElementById("number")
 
-        if (colors[randomColors] == "red") {
+        if (suits[randomSuits] == "♦" || suits[randomSuits] == "♥") {
             changeColorSuit.style.color = "red"
             changeColorSuitFooter.style.color = "red"
             changeColorNumber.style.color = "red"
